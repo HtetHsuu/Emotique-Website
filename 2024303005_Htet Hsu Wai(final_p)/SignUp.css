@@ -1,0 +1,55 @@
+body {
+  background: radial-gradient(circle,white,rgb(235, 235, 194),rgb(240, 200, 240));
+}
+
+
+#container {
+    width:600px;
+    margin:10px auto;
+    background-color: rgb(238, 237, 227);
+
+  }
+  fieldset {
+    margin-bottom: 20px;
+    color: #000000;
+  }
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  ul li {
+    margin:10px;
+  }
+  
+  li label {
+    width:150px;
+    line-height: 36px;
+    float:left;
+    font-weight:bold;
+  }
+  
+  input[type="text"], input[type="password"], input[type="email"] {
+    width:300px;
+    height:30px;
+  }
+  
+  #buttons {
+    width:400px;
+    margin:20px auto;
+    text-align: center;
+  }
+  #buttons input {
+    width:150px;
+    height:50px;
+    font-size:15px;
+  }
+  #buttons input:hover {
+    background-color:rgb(77, 77, 78);
+    color:#f4ebf3;
+    border-color:#111010;
+  }
+  select {
+    width:80px;
+    height:30px;
+    
+  }

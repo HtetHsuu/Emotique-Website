@@ -1,2 +1,2 @@
 # Emotique-Website
-one of my school projects
+WebProgramming Final Project!!

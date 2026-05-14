@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>membership</title>
+    <style>
+      #container {
+        width:600px;
+        margin:10px auto;
+        color: #000000;
+      }
+    </style>
+    <link rel="stylesheet" href="SignUp.css">
+  </head>
+  <body> 
+    <div id="container">
+      <h1>Welcome to our membership~˚ʚ♡ɞ˚</h1>
+      <form>
+        <fieldset>
+          <legend>User Information</legend>
+          <ul>
+            <li>
+              <label for="uid">ID</label>
+              <input type="text" id="uid" autofocus placeholder="4 to 10 characters without spaces" required>
+            </li>
+            <li>
+              <label for="umail">Email</label>
+              <input type="email" id="umail" required>
+            </li>
+            <li>
+              <label for="pwd1">Password</label>
+              <input type="password" id="pwd1" placeholder="Contains letters, numbers and special letters" required>
+            </li>
+            <li>
+              <label for="pwd2">Confirm password</label>
+              <input type="password" id="pwd2" required>
+            </li>
+            <li>
+              <label for="path">Sign up path</label>
+              <select id="path">
+                <option value="blog">Blog</option>
+                <option value="search">Search</option>
+                <option value="sns">SNS</option>
+                <option value="etc">etc</option>
+              </select>
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset>
+          <legend>Recieve email about events and news</legend>
+          <input type="radio" name="mailing" id="mailing_y" value="mailing_yes">
+          <label for="mailing_y">YES</label>
+          <input type="radio" name="mailing" id="mailing_n" value="mailing_no" checked>
+          <label for="mailing_n">NO</label>
+        </fieldset>
+        <div id="buttons">
+          <input type="submit" value="Sign Up">
+          <input type="reset" value="cancel">
+        </div>
+      </form>
+
+    </div>           
+  </body>
+</html>
